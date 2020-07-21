@@ -1,38 +1,39 @@
+
+@font-face {
+  font-family: 'KabrioSoft';
+  src: local('KabrioSoft'), url('./assets/fonts/KabrioSoft-Bold.otf'), format('otf');
+}
+
 .App {
   text-align: center;
+  height: 5000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.scrollTop {
+  position: fixed; 
+  width: 100%;
+  left: 45%;
+  bottom: 45px;
   align-items: center;
+  height: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  color: rgb(255, 255, 255);
 }
 
-.App-link {
-  color: #61dafb;
+.scrollTop:hover{
+  opacity: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    opacity: 0.9;
   }
 }

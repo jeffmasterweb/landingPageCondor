@@ -1,0 +1,25 @@
+.App-nav {
+    background-color: none;
+    font-size: 18px;
+    font-family: 'Kabrio Soft';
+    font-weight: 300;
+    flex-wrap: wrap;
+  }
+  
+  .App-fundo {
+    position: fixed;
+    z-index: -1;
+    display: flex;
+    width: 100%;
+  }
+
+#basic-navbar-nav {
+  color: white !important;
+}
+
+  @media screen and (max-width: 1291px) {
+    .App-fundo {
+      position: fixed;
+      width: 1320px;
+    }
+  }

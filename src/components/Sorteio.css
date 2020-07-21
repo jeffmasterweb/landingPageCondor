@@ -1,0 +1,13 @@
+.Sorteio-Titulo {
+    font-family: 'Kabrio Soft';
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.Sorteio-SubT {
+    font-family: 'Kabrio Soft';
+}
+
+.Sorteio-SubT span {
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,26 @@
+.NumeroSorte-bt {
+    width: 270px;
+    height: 50px;
+    background-color: orange;
+    color: black;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px none rgb(240, 235, 235);
+    font-family: 'Roboto' bold;
+    font-weight: 700;
+    outline: none;
+    text-transform: uppercase;
+
+    transition: 0.1s ease;
+}
+
+.NumeroSorte-bt:hover {
+    background-image: linear-gradient(to left, #f9d423 0%, #ff4e50 100%);
+    transform: scale(0.8) ease-in-out;
+    transition: 0.1s ease;
+    box-shadow: 2px 2px 6px;
+    color: black;
+    border: 1px none rgb(255, 255, 255);
+}
+
+

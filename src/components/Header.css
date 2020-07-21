@@ -1,0 +1,38 @@
+.Header-row {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.Header-h1, .Header-h2, .Header-h6 {
+    transform: rotate(-7deg);
+    color: rgb(255, 255, 255);
+}
+
+.Header-h1 {
+    font-size: 35px;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+.Header-h2 {
+    font-size: 30px;
+}
+
+.Header-h6 {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+span.Header-splash {
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 112, 76);
+    padding: 7px 25px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    outline: none;
+}
+
+h5 {
+    padding-bottom: 30px;
+}

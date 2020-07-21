@@ -1,24 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Menu from './components/Menu';
+import { Container } from 'react-bootstrap';
+import Premios from './components/Premios';
+import Aceleradores from './components/Aceleradores';
+import Participar from './components/Participar';
+import NumeroSorte from './components/NumeroSorte';
+import Download from './components/Download';
+import ProdutosParticipantes from './components/ProdutosParticipantes';
+import Footer from './components/Footer';
+import Sorteio from './components/Sorteio';
+import Gallery from './components/Gallery';
+import ScrollArrow from './components/ScrollArrow';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <img src="bg.jpg" className="App-fundo"/>
+        <Container>
+            <Menu/>
+            <Premios/>
+            <Aceleradores/>
+            <Participar/>
+            <NumeroSorte/>
+            <Download/>
+            <ProdutosParticipantes/>
+            <Sorteio/>
+            <Gallery/>
+            <Footer/>
+        </Container>
+        <ScrollArrow/>
     </div>
   );
 }
