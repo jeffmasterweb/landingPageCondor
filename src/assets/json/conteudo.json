@@ -1,10 +1,10 @@
 ﻿[ {
     "menu": [
-        { "name": "Como participar", "link": "#participar" },
+        { "name": "Como Participar", "link": "#participar" },
         { "name": "Meus números", "link": "#numeroSorte" },
         { "name": "Produtos", "link": "#produtosParticipantes" },
         {
-            "name": "Ver regulamento",
+            "name": "Ver Regulamento",
             "link": "./regulamento.pdf",
             "externa": true
         },
