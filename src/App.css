@@ -1,8 +1,25 @@
 
 @font-face {
-  font-family: 'KabrioSoft';
-  src: local('KabrioSoft'), url('./assets/fonts/KabrioSoft-Bold.otf'), format('otf');
+  font-family: 'Kabrio Soft';
+  src: local('KabrioSoft.otf'), url('./assets/fonts/KabrioSoft-Bold.otf'), format('otf');
 }
+
+@font-face {
+  font-family: 'Kabrio Soft';
+  font-style: bold;
+  /* font-weight: ; */
+  src: url('./assets/fonts/KabrioSoft-Bold.otf'); /* IE9 Compat Modes */
+  src: local('Kabrio Soft'), local('KabrioSoft'),
+       url('./assets/fonts/KabrioSoft-Bold.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/fonts/KabrioSoftBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./assets/fonts/KabrioSoftBold.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/KabrioSoftBold.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./assets/fonts/KabrioSoftBold.svg') format('svg'); /* Legacy iOS */
+}
+body {
+  font-family: 'Kabrio Soft';
+}
+
 
 .App {
   text-align: center;
