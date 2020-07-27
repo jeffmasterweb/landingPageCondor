@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, Form, FormControl, Button, Container, Jumbotron } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Menu.css'

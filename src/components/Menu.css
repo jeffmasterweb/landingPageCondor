@@ -13,9 +13,30 @@
     width: 100%;
   }
 
-#basic-navbar-nav {
-  color: white !important;
-}
+/* Configuração de cores da Navbar START*/
+
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin: 0 10px;
+    margin-top: 20px;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-color:; 
+    box-shadow: 4px 4px 1px #ffae00;
+
+    background: url("../assets/imagens/Repeating-Chevrons.svg") no-repeat;
+    background-size: cover;
+  }
+
+  .navbar-brand {
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+
+  /* Configuração de cores da Navbar END*/
+
 
   @media screen and (max-width: 1291px) {
     .App-fundo {
